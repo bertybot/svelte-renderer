@@ -4,6 +4,7 @@ import { Class, Link, Video, Image, IFrame, Audio} from "./Elements";
 import CodeBlock from "./Elements/CodeBlock.svelte";
 import { Bold, Code, Italic, Underline } from "./TextRenderers";
 import { htmlDefaultElements } from "./HtmlElements";
+import Fallback from "./Elements/Fallback.svelte";
 
 
 export const defaultElements: Required<NodeRendererType> = {
@@ -22,6 +23,12 @@ export const defaultElements: Required<NodeRendererType> = {
         audio: Audio,
         image: Image,
         video: Video,
-    }
+        font: Fallback,
+        application: Fallback,
+        model: Fallback,
+        text:Fallback
+    },
+    embed: {},
+    link: {}
     
 }

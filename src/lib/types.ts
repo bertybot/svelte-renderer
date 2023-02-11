@@ -1,4 +1,5 @@
 import type {SvelteComponent} from 'svelte';
+import type {Node} from '@graphcms/rich-text-types';
 
 type AssetRendererType = {
     application?: typeof SvelteComponent;
@@ -48,3 +49,5 @@ export type NodeRendererType = {
     }
     
 }
+
+export type RichTextContent = Array<Node> | { children: Array<Node>}
