@@ -23,6 +23,10 @@
 	"publishConfig": {
 		"directory": "package"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bertybot/svelte-renderer.git"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",

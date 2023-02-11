@@ -409,5 +409,4 @@ describe('custom embeds and assets', () => {
 
 		expect(document.body).toMatchSnapshot();
 	});
-
 });

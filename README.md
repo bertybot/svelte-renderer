@@ -1,9 +1,8 @@
 # rich-text-svelte-renderer
 
-Svelte port of @hygraph's Rich text renderer. [link](https://github.com/hygraph/rich-text/blob/main/packages/react-renderer/README.md) . 
+Svelte port of @hygraph's Rich text renderer. [link](https://github.com/hygraph/rich-text/blob/main/packages/react-renderer/README.md) .
 
-## Getting Started 
-
+## Getting Started
 
 You can get it on npm or Yarn.
 
@@ -22,34 +21,32 @@ pnpm i rich-text-svelte-renderer
 
 To render the content on your application, you'll need to provide the array of elements returned from the Hygraph API to the `RichText` component. The content has to be returned in `raw` (or `json`) format as the AST representation. For more information on how to query the Rich Text content, [check our documentation](https://hygraph.com/docs/api-reference/schema/field-types#rich-text).
 
-```svelte
+````svelte
 <script>
-import { RichText } from 'rich-text-svelte-renderer';
+	import { RichText } from 'rich-text-svelte-renderer';
 
-const content = {
-  children: [
-    {
-      type: 'paragraph',
-      children: [
-        {
-          bold: true,
-          text: 'Hello World!',
-        },
-      ],
-    },
-  ],
-};
+	const content = {
+		children: [
+			{
+				type: 'paragraph',
+				children: [
+					{
+						bold: true,
+						text: 'Hello World!'
+					}
+				]
+			}
+		]
+	};
 </script>
 
 <RichText {content} />
 
-The content from the example above will render:
-
-```html
+The content from the example above will render: ```html
 <p>
-  <b>Hello world!</b>
+	<b>Hello world!</b>
 </p>
-```
+````
 
 ## Custom elements
 
@@ -57,19 +54,19 @@ By default, the elements won't have any styling, despite the `IFrame`, which we 
 
 ```svelte
 <script>
-import { RichText } from 'rich-text-svelte-renderer';
-import newH1 from './newH1.svelte';
-const content = {
-  /* ... */
-};
-
+	import { RichText } from 'rich-text-svelte-renderer';
+	import newH1 from './newH1.svelte';
+	const content = {
+		/* ... */
+	};
 </script>
-      <RichText
-        content={content}
-        renderers={{
-          h1:newH1
-        }}
-      />
+
+<RichText
+	{content}
+	renderers={{
+		h1: newH1
+	}}
+/>
 ```
 
 Below you can check the full list of elements you can customize, alongside the props available for each of them.
@@ -146,8 +143,6 @@ Below you can check the full list of elements you can customize, alongside the p
 - `code_block`
   - `children`: SvelteComponent;
 
-
-
 ### Custom Embeds/Assets
 
 Depending on your reference query and model, fields may change, which applies to types. To have a better DX using the package, we have `EmbedProps` and `LinkEmbedProps` types that you can import from `@graphcms/rich-text-types` (you may need to install it if you don't have done it already).
@@ -156,34 +151,34 @@ In this example, we have seen how to write a renderer for a `Post` model, but it
 
 ```svelte
 <script lang="ts">
-import type { EmbedProps, LinkEmbedProps } from '@graphcms/rich-text-types';
+	import type { EmbedProps, LinkEmbedProps } from '@graphcms/rich-text-types';
 
-type Post = {
-  title: string;
-  slug: string;
-  description: string;
-};
+	type Post = {
+		title: string;
+		slug: string;
+		description: string;
+	};
 
-import Post from './Post.svelte';
-import PostLink from './PostLink.svelte';
+	import Post from './Post.svelte';
+	import PostLink from './PostLink.svelte';
 
-const content = {
-  /* ... */
-};
-
+	const content = {
+		/* ... */
+	};
 </script>
 
-
-<RichText {content} renderers={{
-    embed: {
-        Post
-    },
-    link: {
-        Post: PostLink
-    }
-}}/>
+<RichText
+	{content}
+	renderers={{
+		embed: {
+			Post
+		},
+		link: {
+			Post: PostLink
+		}
+	}}
+/>
 ```
-
 
 ## 📝 License
 
