@@ -86,9 +86,7 @@
 {#if !removeEmptyElement && component}
 	<svelte:component
 		this={component}
-		{...$$restProps}
-		nodeId={element.nodeId}
-		nodeType={element.nodeType}
+		{...element}
 		{...referenceValues}
 	>
 		<RenderElements {content} {renderers} {references} parent={element} />
