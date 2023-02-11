@@ -22,10 +22,11 @@ pnpm i rich-text-svelte-renderer
 To render the content on your application, you'll need to provide the array of elements returned from the Hygraph API to the `RichText` component. The content has to be returned in `raw` (or `json`) format as the AST representation. For more information on how to query the Rich Text content, [check our documentation](https://hygraph.com/docs/api-reference/schema/field-types#rich-text).
 
 ````svelte
-<script>
+<script lang="ts">
+    import type { RichTextProps } from 'rich-text-svelte-renderer/RichText.svelte';
 	import { RichText } from 'rich-text-svelte-renderer';
 
-	const content = {
+	const content: RichTextProps['content'] = {
 		children: [
 			{
 				type: 'paragraph',
