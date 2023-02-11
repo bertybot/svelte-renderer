@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { EmbedReferences, Node } from '@graphcms/rich-text-types';
-	import type { NodeRendererType, RichTextContent} from './types';
-    
+	import type { EmbedReferences, Node, RichTextContent } from '@graphcms/rich-text-types';
+	import type { NodeRendererType } from './types';
+
 	import { getArrayOfElements } from './getArrayOfElements';
 	import RenderNode from './RenderNode.svelte';
 

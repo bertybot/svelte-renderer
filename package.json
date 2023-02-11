@@ -1,5 +1,7 @@
 {
-	"name": "svelte-renderer",
+	"name": "rich-text-svelte-renderer",
+	"author": "Bert Bengtson",
+	"license": "MIT",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",

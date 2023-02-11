@@ -7,7 +7,6 @@
 	export let title = '';
 </script>
 
-
 <!-- svelte-ignore a11y-media-has-caption -->
 <video src={escapeHTML(src)} controls width={width || '100%'} height={height || '100%'} {title}>
 	<p>

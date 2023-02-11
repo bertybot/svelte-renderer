@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { EmbedReferences } from '@graphcms/rich-text-types';
-	import type { NodeRendererType, RichTextContent } from './types';
+	import type { EmbedReferences, RichTextContent } from '@graphcms/rich-text-types';
+	import type { NodeRendererType } from './types';
 
 	import RenderElements from './RenderElements.svelte';
 	import { getArrayOfElements } from './getArrayOfElements';
@@ -21,4 +21,4 @@
 	};
 </script>
 
-<RenderElements content={elements} />
+<RenderElements content={elements} {renderers} {references} />

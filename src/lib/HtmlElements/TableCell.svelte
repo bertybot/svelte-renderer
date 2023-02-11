@@ -1,1 +1,1 @@
-<td><slot/></td>
+<td><slot /></td>

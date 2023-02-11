@@ -19,6 +19,6 @@
 		allow="fullscreen"
 		frameBorder="0"
 		referrerPolicy="no-referrer"
-        {title}
+		{title}
 	/>
 </div>
