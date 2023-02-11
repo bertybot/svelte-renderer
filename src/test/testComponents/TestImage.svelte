@@ -1,6 +1,6 @@
 <script>
-    export let src = '';
-    export let altText = '';
+	export let src = '';
+	export let altText = '';
 </script>
 
-<img src={src} alt={altText} />
+<img {src} alt={altText} />

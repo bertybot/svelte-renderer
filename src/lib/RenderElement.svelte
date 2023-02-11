@@ -84,11 +84,7 @@
 </script>
 
 {#if !removeEmptyElement && component}
-	<svelte:component
-		this={component}
-		{...element}
-		{...referenceValues}
-	>
+	<svelte:component this={component} {...element} {...referenceValues}>
 		<RenderElements {content} {renderers} {references} parent={element} />
 	</svelte:component>
 {/if}

@@ -1,5 +1,6 @@
 {
 	"name": "rich-text-svelte-renderer",
+	"description": "Svelte port of Hygraph Rich Text React renderer",
 	"author": "Bert Bengtson",
 	"license": "MIT",
 	"version": "0.0.1",
@@ -13,6 +14,12 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"keywords": [
+		"svelte",
+		"rich-text",
+		"renderer",
+		"hygraph"
+	],
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
