@@ -19,7 +19,10 @@
 		"svelte",
 		"rich-text",
 		"renderer",
-		"hygraph"
+		"hygraph",
+		"svelte",
+		"sveltekit",
+		"svelte-kit"
 	],
 	"exports": {
 		".": {
@@ -52,6 +55,7 @@
 		"jsdom": "^21.1.2",
 		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.1",
+		"publint": "^0.2.5",
 		"svelte": "^4.2.2",
 		"svelte-check": "^3.5.2",
 		"tslib": "^2.6.2",
