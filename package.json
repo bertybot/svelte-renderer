@@ -36,9 +36,6 @@
 	"peerDependencies": {
 		"svelte": "^3.58.0 || ^4.0.0"
 	},
-	"publishConfig": {
-		"directory": "package"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bertybot/svelte-renderer.git"
