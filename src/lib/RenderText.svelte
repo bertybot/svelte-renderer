@@ -11,7 +11,7 @@
 	export let shouldSerialize: boolean;
 	export let renderers: NodeRendererType | undefined;
 
-	let component: typeof SvelteComponent | undefined = undefined;
+	let component: typeof SvelteComponent<object> | undefined = undefined;
 
 	$: {
 		if (bold) component = renderers?.['bold'];

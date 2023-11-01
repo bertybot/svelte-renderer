@@ -1,4 +1,4 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`custom embeds and assets > should render specific mimeType if favour of the mimeType group 1`] = `
 <body>
@@ -6,15 +6,12 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <img
-    alt=""
     loading="lazy"
     title=""
   />
@@ -23,7 +20,6 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <div>
     custom video/mp4
@@ -33,7 +29,6 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <audio
     controls=""
@@ -56,22 +51,18 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -84,15 +75,12 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <img
-    alt=""
     loading="lazy"
     title=""
   />
@@ -101,7 +89,6 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <video
     controls=""
@@ -126,7 +113,6 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <audio
     controls=""
@@ -149,22 +135,18 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -175,7 +157,6 @@ exports[`rich-text-svelte-renderer > removes the width and height attributes if 
 <body>
   
   <img
-    alt=""
     loading="lazy"
     src="https://media.graphassets.com/bFyCrmvuQfO7n0l5ZmH5"
     title="logo.svg"
@@ -185,7 +166,6 @@ exports[`rich-text-svelte-renderer > removes the width and height attributes if 
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -207,7 +187,6 @@ exports[`rich-text-svelte-renderer > renders class 1`] = `
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </p>
@@ -216,7 +195,6 @@ exports[`rich-text-svelte-renderer > renders class 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </div>
@@ -225,7 +203,6 @@ exports[`rich-text-svelte-renderer > renders class 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -247,7 +224,6 @@ exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </p>
@@ -256,7 +232,6 @@ exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </section>
@@ -265,7 +240,6 @@ exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -287,7 +261,6 @@ exports[`rich-text-svelte-renderer > renders content 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -296,7 +269,6 @@ exports[`rich-text-svelte-renderer > renders content 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -318,7 +290,6 @@ exports[`rich-text-svelte-renderer > renders content correctly if received a obj
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -327,7 +298,6 @@ exports[`rich-text-svelte-renderer > renders content correctly if received a obj
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -353,7 +323,6 @@ exports[`rich-text-svelte-renderer > renders content with custom elements 1`] = 
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -364,7 +333,6 @@ exports[`rich-text-svelte-renderer > renders content with custom elements 1`] = 
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -392,7 +360,6 @@ exports[`rich-text-svelte-renderer > renders iframe 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -415,7 +382,6 @@ exports[`rich-text-svelte-renderer > renders image 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -434,7 +400,6 @@ exports[`rich-text-svelte-renderer > renders image with custom renderer 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -456,7 +421,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <i>
       how
@@ -468,7 +432,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <u>
       are
@@ -480,7 +443,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <code>
       you?
@@ -492,7 +454,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -501,7 +462,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -525,7 +485,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <i
       class="italic-class"
@@ -540,7 +499,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <u
       role="button"
@@ -556,7 +514,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <code
       style="fontStyle: italic;"
@@ -570,7 +527,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -579,7 +535,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -604,7 +559,6 @@ exports[`rich-text-svelte-renderer > renders link 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </a>
@@ -613,7 +567,6 @@ exports[`rich-text-svelte-renderer > renders link 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -634,7 +587,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
       <!--&lt;Slot&gt;-->
@@ -642,7 +594,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </li>
@@ -651,7 +602,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <li>
       
@@ -662,7 +612,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
       <!--&lt;Slot&gt;-->
@@ -670,7 +619,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </li>
@@ -679,7 +627,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <li>
       
@@ -690,7 +637,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
       <!--&lt;Slot&gt;-->
@@ -698,7 +644,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </li>
@@ -707,7 +652,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <li>
       
@@ -718,7 +662,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
       <!--&lt;Slot&gt;-->
@@ -726,7 +669,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </li>
@@ -735,7 +677,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </ul>
@@ -744,7 +685,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -778,7 +718,6 @@ exports[`rich-text-svelte-renderer > renders video 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -796,7 +735,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <a
       href="https://hygraph.com"
@@ -808,7 +746,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </a>
@@ -817,7 +754,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </h2>
@@ -826,7 +762,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <h2>
     
@@ -836,7 +771,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <a
       href="https://hygraph.com"
@@ -848,7 +782,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
       
       <!--&lt;RenderText&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </a>
@@ -857,7 +790,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
      2
     
@@ -865,7 +797,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </h2>
@@ -874,39 +805,32 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <table>
     
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <tbody>
       
@@ -922,7 +846,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
             
             <!--&lt;RenderText&gt;-->
             
-            <!--&lt;RenderNode&gt;-->
             
             <!--&lt;RenderElements&gt;-->
           </p>
@@ -931,7 +854,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
           
           <!--&lt;RenderElement&gt;-->
           
-          <!--&lt;RenderNode&gt;-->
           
           <!--&lt;RenderElements&gt;-->
         </td>
@@ -940,7 +862,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
         
         <!--&lt;RenderElement&gt;-->
         
-        <!--&lt;RenderNode&gt;-->
         
         <td>
           
@@ -952,7 +873,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
             
             <!--&lt;RenderText&gt;-->
             
-            <!--&lt;RenderNode&gt;-->
             
             <!--&lt;RenderElements&gt;-->
           </p>
@@ -961,7 +881,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
           
           <!--&lt;RenderElement&gt;-->
           
-          <!--&lt;RenderNode&gt;-->
           
           <!--&lt;RenderElements&gt;-->
         </td>
@@ -970,7 +889,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
         
         <!--&lt;RenderElement&gt;-->
         
-        <!--&lt;RenderNode&gt;-->
         
         <!--&lt;RenderElements&gt;-->
       </tr>
@@ -979,7 +897,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </tbody>
@@ -988,7 +905,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </table>
@@ -997,7 +913,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -1023,7 +938,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             <!--&lt;RenderText&gt;-->
             
-            <!--&lt;RenderNode&gt;-->
             
             <!--&lt;RenderElements&gt;-->
           </p>
@@ -1032,7 +946,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           
           <!--&lt;RenderElement&gt;-->
           
-          <!--&lt;RenderNode&gt;-->
           
           <!--&lt;RenderElements&gt;-->
         </th>
@@ -1041,7 +954,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         <!--&lt;RenderElement&gt;-->
         
-        <!--&lt;RenderNode&gt;-->
         
         <th>
           
@@ -1053,7 +965,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             <!--&lt;RenderText&gt;-->
             
-            <!--&lt;RenderNode&gt;-->
             
             <!--&lt;RenderElements&gt;-->
           </p>
@@ -1062,7 +973,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           
           <!--&lt;RenderElement&gt;-->
           
-          <!--&lt;RenderNode&gt;-->
           
           <!--&lt;RenderElements&gt;-->
         </th>
@@ -1071,7 +981,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         <!--&lt;RenderElement&gt;-->
         
-        <!--&lt;RenderNode&gt;-->
         
         <!--&lt;RenderElements&gt;-->
       </tr>
@@ -1080,7 +989,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </thead>
@@ -1089,7 +997,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <tbody>
       
@@ -1105,7 +1012,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             <!--&lt;RenderText&gt;-->
             
-            <!--&lt;RenderNode&gt;-->
             
             <!--&lt;RenderElements&gt;-->
           </p>
@@ -1114,7 +1020,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           
           <!--&lt;RenderElement&gt;-->
           
-          <!--&lt;RenderNode&gt;-->
           
           <!--&lt;RenderElements&gt;-->
         </td>
@@ -1123,7 +1028,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         <!--&lt;RenderElement&gt;-->
         
-        <!--&lt;RenderNode&gt;-->
         
         <td>
           
@@ -1135,7 +1039,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             <!--&lt;RenderText&gt;-->
             
-            <!--&lt;RenderNode&gt;-->
             
             <!--&lt;RenderElements&gt;-->
           </p>
@@ -1144,7 +1047,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           
           <!--&lt;RenderElement&gt;-->
           
-          <!--&lt;RenderNode&gt;-->
           
           <!--&lt;RenderElements&gt;-->
         </td>
@@ -1153,7 +1055,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         <!--&lt;RenderElement&gt;-->
         
-        <!--&lt;RenderNode&gt;-->
         
         <!--&lt;RenderElements&gt;-->
       </tr>
@@ -1162,7 +1063,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
       
       <!--&lt;RenderElement&gt;-->
       
-      <!--&lt;RenderNode&gt;-->
       
       <!--&lt;RenderElements&gt;-->
     </tbody>
@@ -1171,7 +1071,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
     
     <!--&lt;RenderElement&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </table>
@@ -1180,7 +1079,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -1198,7 +1096,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <b>
       cap
@@ -1210,7 +1107,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
      
     
@@ -1218,7 +1114,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <u>
       with
@@ -1230,7 +1125,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
      
     
@@ -1238,7 +1132,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <i>
       embroidered
@@ -1250,7 +1143,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
      
     
@@ -1258,7 +1150,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <b>
       Hygraph
@@ -1270,7 +1161,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
      logo.
     
@@ -1278,7 +1168,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -1287,7 +1176,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -1317,7 +1205,6 @@ exports[`rich-text-svelte-renderer > should replace all
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </p>
@@ -1326,7 +1213,6 @@ exports[`rich-text-svelte-renderer > should replace all
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->
@@ -1344,7 +1230,6 @@ exports[`rich-text-svelte-renderer > should should render H1 with some text 1`] 
     
     <!--&lt;RenderText&gt;-->
     
-    <!--&lt;RenderNode&gt;-->
     
     <!--&lt;RenderElements&gt;-->
   </h1>
@@ -1353,7 +1238,6 @@ exports[`rich-text-svelte-renderer > should should render H1 with some text 1`] 
   
   <!--&lt;RenderElement&gt;-->
   
-  <!--&lt;RenderNode&gt;-->
   
   <!--&lt;RenderElements&gt;-->
   <!--&lt;RichText&gt;-->

@@ -3,14 +3,14 @@
 	import type { NodeRendererType } from './types';
 
 	import RenderElements from './RenderElements.svelte';
-	import { getArrayOfElements } from './getArrayOfElements';
 	import { defaultElements } from './defaultElements';
 
+	/** @description unique identifier for content block to make sure it updates during CSR or propchange defaults to stringifying content if not supplied */
+	export let slug: string | null = null;
 	export let content: RichTextContent;
 	export let renderers: NodeRendererType | undefined = undefined;
 	export let references: EmbedReferences | undefined = undefined;
 
-	$: elements = getArrayOfElements(content);
 	$: renderers = {
 		...defaultElements,
 		...renderers,
@@ -21,4 +21,4 @@
 	};
 </script>
 
-<RenderElements content={elements} {renderers} {references} />
+<RenderElements {slug} {content} {renderers} {references} />
