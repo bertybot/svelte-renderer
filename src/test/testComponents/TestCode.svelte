@@ -1,1 +1,1 @@
-<code style:fontStyle="italic"><slot /></code>
+<code style:font-style="italic"><slot /></code>
