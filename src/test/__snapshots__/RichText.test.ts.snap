@@ -33,7 +33,7 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   <audio
     controls=""
     src="https://media.graphassets.com/H9eZ7CISSBpAKxqdSwzg"
-    style="display: block; maxWidth: 100%; height: auto;"
+    style="display: block; max-width: 100%; height: auto;"
   >
     <p>
       Your browser doesn't support HTML5 audio. Here is a
@@ -117,7 +117,7 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   <audio
     controls=""
     src="https://media.graphassets.com/H9eZ7CISSBpAKxqdSwzg"
-    style="display: block; maxWidth: 100%; height: auto;"
+    style="display: block; max-width: 100%; height: auto;"
   >
     <p>
       Your browser doesn't support HTML5 audio. Here is a
@@ -343,7 +343,7 @@ exports[`rich-text-svelte-renderer > renders iframe 1`] = `
 <body>
   
   <div
-    style="position: relative; overflow: hidden; width: 100%; paddingTop: 56.25%;"
+    style="position: relative; overflow: hidden; width: 100%; padding-top: 56.25%;"
   >
     <iframe
       allow="fullscreen"
@@ -516,7 +516,7 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     
     <code
-      style="fontStyle: italic;"
+      style="font-style: italic;"
     >
       you?
       
