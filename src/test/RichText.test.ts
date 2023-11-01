@@ -1,4 +1,4 @@
-import type { RichTextContent, EmbedProps, LinkEmbedProps } from '@graphcms/rich-text-types';
+import type { RichTextContent } from '@graphcms/rich-text-types';
 
 import RichText from '$lib/RichText.svelte';
 import { describe, it, expect, afterEach } from 'vitest';
@@ -13,8 +13,7 @@ import {
 	emptyContent,
 	embedAssetContent,
 	simpleH1Content,
-	tableContent,
-	nestedEmbedAssetContent
+	tableContent
 } from './content';
 import TestP from './testComponents/TestP.svelte';
 import TestBold from './testComponents/TestBold.svelte';

@@ -14,9 +14,10 @@
 	export let element: ElementNode;
 	export let renderers: NodeRendererType | undefined = undefined;
 	export let references: EmbedReferences | undefined = undefined;
+	export let slug: string | null = null;
 
 	function getEmbedComponent() {
-		const { children, type, ...rest } = element;
+		const { type, ...rest } = element;
 		const { nodeId, nodeType } = rest;
 
 		/**
@@ -85,6 +86,6 @@
 
 {#if !removeEmptyElement && component}
 	<svelte:component this={component} {...element} {...referenceValues}>
-		<RenderElements {content} {renderers} {references} parent={element} />
+		<RenderElements {content} {renderers} {references} parent={element} {slug} />
 	</svelte:component>
 {/if}

@@ -5,7 +5,12 @@
 	export let title = '';
 </script>
 
-<div style:position="relative" style:overflow="hidden" style:width="100%" style:paddingTop="56.25%">
+<div
+	style:position="relative"
+	style:overflow="hidden"
+	style:width="100%"
+	style:padding-top="56.25%"
+>
 	<iframe
 		style:position="absolute"
 		style:top="0"

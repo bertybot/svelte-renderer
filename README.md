@@ -23,7 +23,7 @@ To render the content on your application, you'll need to provide the array of e
 
 ````svelte
 <script lang="ts">
-    import type { RichTextProps } from 'rich-text-svelte-renderer/RichText.svelte';
+	import type { RichTextProps } from 'rich-text-svelte-renderer/RichText.svelte';
 	import { RichText } from 'rich-text-svelte-renderer';
 
 	const content: RichTextProps['content'] = {
