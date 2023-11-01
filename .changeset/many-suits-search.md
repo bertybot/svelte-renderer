@@ -8,3 +8,4 @@ Svelte 4 update
 - Added `slug` prop to prevent error on CSR in Sveltekit
 - Updated Types/linting
 - removed unused code
+- updated package exports
