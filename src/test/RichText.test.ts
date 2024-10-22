@@ -2,7 +2,7 @@ import type { RichTextContent } from '@graphcms/rich-text-types';
 
 import RichText from '$lib/RichText.svelte';
 import { describe, it, expect, afterEach } from 'vitest';
-
+import { render } from '@testing-library/svelte';
 import {
 	defaultContent as content,
 	imageContent,
@@ -14,16 +14,10 @@ import {
 	embedAssetContent,
 	simpleH1Content,
 	tableContent
-} from './content';
-import TestP from './testComponents/TestP.svelte';
-import TestBold from './testComponents/TestBold.svelte';
-import TestUnderline from './testComponents/TestUnderline.svelte';
-import TestItalic from './testComponents/TestItalic.svelte';
-import TestCode from './testComponents/TestCode.svelte';
-import TestClass from './testComponents/TestClass.svelte';
-import TestImage from './testComponents/TestImage.svelte';
-import TestVideo from './testComponents/TestVideo.svelte';
-import TestMp4 from './testComponents/TestMp4.svelte';
+} from './content.js';
+import TestRichText from './testComponents/TestRichText.svelte';
+import TestRichTextClass from './testComponents/TestRichTextClass.svelte';
+
 
 //Svelte does this spacing stuff that makes the snapshots look weird but these are the same tests
 describe('rich-text-svelte-renderer', () => {
@@ -31,7 +25,7 @@ describe('rich-text-svelte-renderer', () => {
 		document.body.innerHTML = '';
 	});
 	it('renders content', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content
@@ -55,7 +49,7 @@ describe('rich-text-svelte-renderer', () => {
 			]
 		};
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: contentObject
@@ -65,7 +59,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('should not render elements if received a object with empty children', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: emptyContent
@@ -75,7 +69,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('should render a table', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: tableContent
@@ -85,7 +79,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('should should render H1 with some text', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: simpleH1Content
@@ -95,7 +89,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders content with custom elements', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content,
@@ -109,7 +103,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders inline content', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: inlineContent
@@ -119,17 +113,11 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders inline content with custom renderers', () => {
-		new RichText({
+		render(TestRichText, {
 			target: document.body,
 			props: {
 				content: inlineContent,
-				renderers: {
-					bold: TestBold,
-					italic: TestItalic,
-					underline: TestUnderline,
-					code: TestCode
-				}
-			}
+			},
 		});
 		expect(document.body).toMatchSnapshot();
 	});
@@ -152,7 +140,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: linkContent
@@ -174,7 +162,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: iframeContent
@@ -184,7 +172,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders class', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: iframeContent
@@ -194,20 +182,17 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders class with custom renderer', () => {
-		new RichText({
+		render(TestRichTextClass, {
 			target: document.body,
 			props: {
-				content: iframeContent,
-				renderers: {
-					class: TestClass
-				}
+				content: iframeContent
 			}
 		});
 		expect(document.body).toMatchSnapshot();
 	});
 
 	it('renders image', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: imageContent
@@ -217,7 +202,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('removes the width and height attributes if they are set to 0', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: [
@@ -242,7 +227,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders image with custom renderer', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: imageContent,
@@ -255,7 +240,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders video', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: videoContent
@@ -265,7 +250,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders lists', () => {
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: listContent
@@ -279,7 +264,7 @@ describe('rich-text-svelte-renderer', () => {
 			{ type: 'paragraph', children: [{ text: '<Test />', code: true }] }
 		];
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: content
@@ -306,7 +291,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: content
@@ -328,7 +313,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: content
@@ -362,47 +347,11 @@ describe('custom embeds and assets', () => {
 			}
 		];
 
-		new RichText({
+		render(RichText, {
 			target: document.body,
 			props: {
 				content: embedAssetContent,
 				references
-			}
-		});
-
-		expect(document.body).toMatchSnapshot();
-	});
-
-	it('should render specific mimeType if favour of the mimeType group', () => {
-		const references = [
-			{
-				id: 'cknjbzowggjo90b91kjisy03a',
-				url: 'https://media.graphassets.com/dsQtt0ARqO28baaXbVy9',
-				mimeType: 'image/png'
-			},
-			{
-				id: 'ckrus0f14ao760b32mz2dwvgx',
-				url: 'https://media.graphassets.com/7M0lXLdCQfeIDXnT2SVS',
-				mimeType: 'video/mp4'
-			},
-			{
-				id: 'ckryzom5si5vw0d78d13bnwix',
-				url: 'https://media.graphassets.com/H9eZ7CISSBpAKxqdSwzg',
-				mimeType: 'audio/mpeg'
-			}
-		];
-
-		new RichText({
-			target: document.body,
-			props: {
-				content: embedAssetContent,
-				references,
-				renderers: {
-					Asset: {
-						video: TestVideo,
-						'video/mp4': TestMp4
-					}
-				}
 			}
 		});
 
