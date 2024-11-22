@@ -31,7 +31,6 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   <!---->
   <img
     loading="lazy"
-    src=""
     title=""
   />
   
@@ -148,7 +147,6 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   <!---->
   <img
     loading="lazy"
-    src=""
     title=""
   />
   

@@ -10,7 +10,7 @@
 	}
 
 	let {
-		src = '',
+		src = undefined,
 		width = $bindable(undefined),
 		height = $bindable(undefined),
 		altText = undefined,
@@ -20,7 +20,7 @@
 
 <img
 	loading="lazy"
-	src={escapeHTML(src)}
+	src={src ? escapeHTML(src) : src}
 	width={width === 0 ? undefined : width}
 	height={height === 0 ? undefined : height}
 	alt={altText}
