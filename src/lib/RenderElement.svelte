@@ -1,7 +1,5 @@
 <script lang="ts">
-	import type { NodeRendererType } from './types';
-	import type { SvelteComponent } from 'svelte';
-
+	import type { NodeRendererType, RendererType } from './types';
 	import {
 		type ElementNode,
 		type EmbedReferences,
@@ -10,16 +8,27 @@
 		isEmpty
 	} from '@graphcms/rich-text-types';
 	import RenderElements from './RenderElements.svelte';
+	import DefaultElement from './DefaultElement.svelte';
+	import { defaultAssets } from './defaultElements';
 
-	export let element: ElementNode;
-	export let renderers: NodeRendererType | undefined = undefined;
-	export let references: EmbedReferences | undefined = undefined;
-	export let slug: string | null = null;
+	interface Props {
+		element: ElementNode;
+		renderers?: RendererType | undefined;
+		references?: EmbedReferences | undefined;
+	}
+
+	let { element, renderers = undefined, references = undefined }: Props = $props();
+
+	let { children, nodeId, nodeType, type, ...rest } = $derived(element);
+
+	let removeEmptyElement = $derived(element.type in EmptyElementsToRemove && isEmpty(element));
+
+	let isEmbed = $derived(element.type === 'embed');
+	let referenceValues = $derived(
+		isEmbed ? references?.filter((ref) => ref.id === nodeId)[0] : null
+	);
 
 	function getEmbedComponent() {
-		const { type, ...rest } = element;
-		const { nodeId, nodeType } = rest;
-
 		/**
 		 * There's two options if the element is an embed.
 		 * 1. If it isn't an asset, then we simply try to use the renderer for that model.
@@ -66,26 +75,29 @@
 			return null;
 		}
 
-		const elementToRender = renderers?.Asset?.[referenceValues?.mimeType];
+		const elementToRender =
+			renderers?.Asset?.[referenceValues?.mimeType] || defaultAssets[referenceValues?.mimeType];
 		if (elementToRender !== undefined) return elementToRender;
 
 		const mimeTypeGroup = referenceValues?.mimeType.split('/')[0];
-		return renderers?.Asset?.[mimeTypeGroup];
+		return renderers?.Asset?.[mimeTypeGroup] || defaultAssets[mimeTypeGroup];
 	}
 
-	$: isEmbed = element.type === 'embed';
-	$: referenceValues = isEmbed ? references?.filter((ref) => ref.id === element?.nodeId)[0] : null;
-	$: component = isEmbed
-		? getEmbedComponent()
-		: (renderers?.[
-				elementTypeKeys[element.type] as keyof NodeRendererType
-		  ] as typeof SvelteComponent);
-	$: removeEmptyElement = element.type in EmptyElementsToRemove && isEmpty(element);
-	$: content = element.children as ElementNode[];
+	let nodeRendererType = $derived(elementTypeKeys[element.type] as keyof NodeRendererType);
+	let Component = $derived(
+		isEmbed ? getEmbedComponent() : renderers?.[nodeRendererType] || DefaultElement
+	);
+	let content = $derived(element.children as ElementNode[]);
 </script>
 
-{#if !removeEmptyElement && component}
-	<svelte:component this={component} {...element} {...referenceValues}>
-		<RenderElements {content} {renderers} {references} parent={element} {slug} />
-	</svelte:component>
+{#if !removeEmptyElement}
+	{#if typeof Component === 'string' || typeof Component === 'number'}
+		<svelte:element this={Component} {...rest}>
+			<RenderElements {content} {renderers} {references} parent={element} />
+		</svelte:element>
+	{:else if Component}
+		<Component {nodeRendererType} {...referenceValues} {...rest}>
+			<RenderElements {content} {renderers} {references} parent={element} />
+		</Component>
+	{/if}
 {/if}

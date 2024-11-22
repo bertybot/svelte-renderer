@@ -1,13 +1,26 @@
 <script lang="ts">
 	import { escapeHTML } from 'es-escape-html';
-	export let href: string;
-	export let rel: string | undefined = undefined;
-	export let id: string | undefined = undefined;
-	export let title: string | undefined = undefined;
-	export let className: string | undefined = undefined;
-	export let openInNewTab = false;
+	interface Props {
+		href: string;
+		rel?: string | undefined;
+		id?: string | undefined;
+		title?: string | undefined;
+		className?: string | undefined;
+		openInNewTab?: boolean;
+		children?: import('svelte').Snippet;
+	}
 
-	$: target = openInNewTab ? '_blank' : undefined;
+	let {
+		href,
+		rel = undefined,
+		id = undefined,
+		title = undefined,
+		className = undefined,
+		openInNewTab = false,
+		children
+	}: Props = $props();
+
+	let target = $derived(openInNewTab ? '_blank' : undefined);
 </script>
 
-<a href={escapeHTML(href)} {rel} {id} {title} class={className} {target}> <slot /></a>
+<a href={escapeHTML(href)} {rel} {id} {title} class={className} {target}> {@render children?.()}</a>

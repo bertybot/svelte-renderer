@@ -1,14 +1,28 @@
 <script lang="ts">
 	import { escapeHTML } from 'es-escape-html';
 
-	export let src = '';
-	export let width: string | number | null | undefined = undefined;
-	export let height: string | number | null | undefined = undefined;
-	export let altText: string | undefined = undefined;
-	export let title = '';
+	interface Props {
+		src?: string;
+		width?: string | number | null | undefined;
+		height?: string | number | null | undefined;
+		altText?: string | undefined;
+		title?: string;
+	}
 
-	$: width = width === 0 ? undefined : width;
-	$: height = height === 0 ? undefined : height;
+	let {
+		src = undefined,
+		width = $bindable(undefined),
+		height = $bindable(undefined),
+		altText = undefined,
+		title = ''
+	}: Props = $props();
 </script>
 
-<img loading="lazy" src={escapeHTML(src)} {width} {height} alt={altText} {title} />
+<img
+	loading="lazy"
+	src={src ? escapeHTML(src) : src}
+	width={width === 0 ? undefined : width}
+	height={height === 0 ? undefined : height}
+	alt={altText}
+	{title}
+/>

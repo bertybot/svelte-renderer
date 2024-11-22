@@ -1,9 +1,6 @@
 import type { NodeRendererType } from './types';
-import { Class, Link, Video, Image, IFrame, Audio } from './Elements';
-import CodeBlock from './Elements/CodeBlock.svelte';
-import { Bold, Code, Italic, Underline } from './TextRenderers';
-import { htmlDefaultElements } from './HtmlElements';
-import Fallback from './Elements/Fallback.svelte';
+import { Class, Link, Video, Image, IFrame, Audio, Fallback, CodeBlock } from './Elements';
+import type { Component } from 'svelte';
 
 export const defaultElements: Required<NodeRendererType> = {
 	a: Link,
@@ -11,21 +8,37 @@ export const defaultElements: Required<NodeRendererType> = {
 	video: Video,
 	img: Image,
 	iframe: IFrame,
-	bold: Bold,
-	italic: Italic,
-	underline: Underline,
-	code: Code,
 	code_block: CodeBlock,
-	...htmlDefaultElements,
-	Asset: {
-		audio: Audio,
-		image: Image,
-		video: Video,
-		font: Fallback,
-		application: Fallback,
-		model: Fallback,
-		text: Fallback
-	},
-	embed: {},
-	link: {}
+	blockquote: 'blockquote',
+	ul: 'ul',
+	ol: 'ol',
+	li: 'li',
+	p: 'p',
+	h1: 'h1',
+	h2: 'h2',
+	h3: 'h3',
+	h4: 'h4',
+	h5: 'h5',
+	h6: 'h6',
+	table: 'table',
+	bold: 'b',
+	italic: 'i',
+	underline: 'u',
+	code: 'code',
+	table_head: 'thead',
+	table_body: 'tbody',
+	table_row: 'tr',
+	table_cell: 'td',
+	table_header_cell: 'th',
+	list_item_child: null
+};
+
+export const defaultAssets: Record<string, Component<any>> = {
+	audio: Audio,
+	image: Image,
+	video: Video,
+	font: Fallback,
+	application: Fallback,
+	model: Fallback,
+	text: Fallback
 };
