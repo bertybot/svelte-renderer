@@ -1,5 +1,10 @@
 <script lang="ts">
-	export let className = '';
+	interface Props {
+		className?: string;
+		children?: import('svelte').Snippet;
+	}
+
+	let { className = '', children }: Props = $props();
 </script>
 
-<div class={className}><slot /></div>
+<div class={className}>{@render children?.()}</div>

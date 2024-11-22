@@ -1,49 +1,54 @@
-import type { SvelteComponent } from 'svelte';
+import type { Component } from 'svelte';
+import type { SvelteHTMLElements } from 'svelte/elements';
 
-type AssetRendererType = {
-	application?: typeof SvelteComponent<object>;
-	audio?: typeof SvelteComponent<object>;
-	font?: typeof SvelteComponent<object>;
-	image?: typeof SvelteComponent<object>;
-	model?: typeof SvelteComponent<object>;
-	text?: typeof SvelteComponent<object>;
-	video?: typeof SvelteComponent<object>;
-	[key: string]: typeof SvelteComponent<object> | undefined;
-};
-export type NodeRendererType = {
-	a?: typeof SvelteComponent<object>;
-	class?: typeof SvelteComponent<object>;
-	img?: typeof SvelteComponent<object>;
-	video?: typeof SvelteComponent<object>;
-	iframe?: typeof SvelteComponent<object>;
-	h1?: typeof SvelteComponent<object>;
-	h2?: typeof SvelteComponent<object>;
-	h3?: typeof SvelteComponent<object>;
-	h4?: typeof SvelteComponent<object>;
-	h5?: typeof SvelteComponent<object>;
-	h6?: typeof SvelteComponent<object>;
-	p?: typeof SvelteComponent<object>;
-	ul?: typeof SvelteComponent<object>;
-	ol?: typeof SvelteComponent<object>;
-	li?: typeof SvelteComponent<object>;
-	list_item_child?: typeof SvelteComponent<object>;
-	table?: typeof SvelteComponent<object>;
-	table_head?: typeof SvelteComponent<object>;
-	table_body?: typeof SvelteComponent<object>;
-	table_row?: typeof SvelteComponent<object>;
-	table_cell?: typeof SvelteComponent<object>;
-	table_header_cell?: typeof SvelteComponent<object>;
-	blockquote?: typeof SvelteComponent<object>;
-	bold?: typeof SvelteComponent<object>;
-	italic?: typeof SvelteComponent<object>;
-	underline?: typeof SvelteComponent<object>;
-	code?: typeof SvelteComponent<object>;
-	code_block?: typeof SvelteComponent<object>;
+interface AssetRendererType {
+	application?: Component<any> | keyof SvelteHTMLElements;
+	audio?: Component<any> | keyof SvelteHTMLElements;
+	font?: Component<any> | keyof SvelteHTMLElements;
+	image?: Component<any> | keyof SvelteHTMLElements;
+	model?: Component<any> | keyof SvelteHTMLElements;
+	text?: Component<any> | keyof SvelteHTMLElements;
+	video?: Component<any> | keyof SvelteHTMLElements;
+	[key: string]: Component<any> | keyof SvelteHTMLElements | undefined;
+}
+
+export interface NodeRendererType {
+	a?: Component<any> | keyof SvelteHTMLElements;
+	class?: Component<any> | keyof SvelteHTMLElements;
+	img?: Component<any> | keyof SvelteHTMLElements;
+	video?: Component<any> | keyof SvelteHTMLElements;
+	iframe?: Component<any> | keyof SvelteHTMLElements;
+	h1?: Component<any> | keyof SvelteHTMLElements;
+	h2?: Component<any> | keyof SvelteHTMLElements;
+	h3?: Component<any> | keyof SvelteHTMLElements;
+	h4?: Component<any> | keyof SvelteHTMLElements;
+	h5?: Component<any> | keyof SvelteHTMLElements;
+	h6?: Component<any> | keyof SvelteHTMLElements;
+	p?: Component<any> | keyof SvelteHTMLElements;
+	ul?: Component<any> | keyof SvelteHTMLElements;
+	ol?: Component<any> | keyof SvelteHTMLElements;
+	li?: Component<any> | keyof SvelteHTMLElements;
+	list_item_child?: Component<any> | keyof SvelteHTMLElements | null;
+	table?: Component<any> | keyof SvelteHTMLElements;
+	table_head?: Component<any> | keyof SvelteHTMLElements;
+	table_body?: Component<any> | keyof SvelteHTMLElements;
+	table_row?: Component<any> | keyof SvelteHTMLElements;
+	table_cell?: Component<any> | keyof SvelteHTMLElements;
+	table_header_cell?: Component<any> | keyof SvelteHTMLElements;
+	blockquote?: Component<any> | keyof SvelteHTMLElements;
+	bold?: Component<any> | keyof SvelteHTMLElements;
+	italic?: Component<any> | keyof SvelteHTMLElements;
+	underline?: Component<any> | keyof SvelteHTMLElements;
+	code?: Component<any> | keyof SvelteHTMLElements;
+	code_block?: Component<any> | keyof SvelteHTMLElements;
+}
+
+export interface RendererType extends NodeRendererType {
 	Asset?: AssetRendererType;
 	embed?: {
-		[key: string]: typeof SvelteComponent<object> | undefined;
+		[key: string]: Component<any> | keyof SvelteHTMLElements | undefined;
 	};
 	link?: {
-		[key: string]: typeof SvelteComponent<object> | undefined;
+		[key: string]: Component<any> | keyof SvelteHTMLElements | undefined;
 	};
-};
+}

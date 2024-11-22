@@ -24,6 +24,7 @@ import TestClass from './testComponents/TestClass.svelte';
 import TestImage from './testComponents/TestImage.svelte';
 import TestVideo from './testComponents/TestVideo.svelte';
 import TestMp4 from './testComponents/TestMp4.svelte';
+import { mount } from 'svelte';
 
 //Svelte does this spacing stuff that makes the snapshots look weird but these are the same tests
 describe('rich-text-svelte-renderer', () => {
@@ -31,7 +32,7 @@ describe('rich-text-svelte-renderer', () => {
 		document.body.innerHTML = '';
 	});
 	it('renders content', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content
@@ -55,7 +56,7 @@ describe('rich-text-svelte-renderer', () => {
 			]
 		};
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: contentObject
@@ -65,7 +66,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('should not render elements if received a object with empty children', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: emptyContent
@@ -75,7 +76,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('should render a table', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: tableContent
@@ -85,7 +86,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('should should render H1 with some text', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: simpleH1Content
@@ -95,7 +96,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders content with custom elements', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content,
@@ -109,7 +110,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders inline content', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: inlineContent
@@ -119,7 +120,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders inline content with custom renderers', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: inlineContent,
@@ -152,7 +153,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: linkContent
@@ -174,7 +175,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: iframeContent
@@ -184,7 +185,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders class', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: iframeContent
@@ -194,7 +195,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders class with custom renderer', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: iframeContent,
@@ -207,7 +208,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders image', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: imageContent
@@ -217,7 +218,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('removes the width and height attributes if they are set to 0', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: [
@@ -242,7 +243,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders image with custom renderer', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: imageContent,
@@ -255,7 +256,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders video', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: videoContent
@@ -265,7 +266,7 @@ describe('rich-text-svelte-renderer', () => {
 	});
 
 	it('renders lists', () => {
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: listContent
@@ -279,13 +280,13 @@ describe('rich-text-svelte-renderer', () => {
 			{ type: 'paragraph', children: [{ text: '<Test />', code: true }] }
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: content
 			}
 		});
-		expect(document.body.innerHTML).toContain('<Test />');
+		expect(document.body.innerHTML).toContain('&lt;Test /&gt;');
 	});
 
 	it('should render empty text spaces', () => {
@@ -306,7 +307,7 @@ describe('rich-text-svelte-renderer', () => {
 			}
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: content
@@ -322,13 +323,13 @@ describe('rich-text-svelte-renderer', () => {
 				type: 'paragraph',
 				children: [
 					{
-						text: "Hello,\n⁠My name is joão pedro,\n⁠I'm testing a bug"
+						text: "Hello,\n My name is joão pedro,\n I'm testing a bug"
 					}
 				]
 			}
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: content
@@ -362,7 +363,7 @@ describe('custom embeds and assets', () => {
 			}
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: embedAssetContent,
@@ -392,7 +393,7 @@ describe('custom embeds and assets', () => {
 			}
 		];
 
-		new RichText({
+		mount(RichText, {
 			target: document.body,
 			props: {
 				content: embedAssetContent,

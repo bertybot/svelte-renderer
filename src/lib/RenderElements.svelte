@@ -12,23 +12,25 @@
 	import { getArrayOfElements } from './getArrayOfElements';
 	import { supressWarnings } from './supressWarnings';
 
-	export let slug: string | null = null;
-	export let content: RichTextContent;
-	export let renderers: NodeRendererType | undefined = undefined;
-	export let references: EmbedReferences | undefined = undefined;
-	export let parent: Node | null = null;
+	interface Props {
+		content: RichTextContent;
+		renderers?: NodeRendererType | undefined;
+		references?: EmbedReferences | undefined;
+		parent?: Node | null;
+	}
 
-	$: elements = getArrayOfElements(content);
-	$: key = slug || JSON.stringify(elements);
+	let { content, renderers = undefined, references = undefined, parent = null }: Props = $props();
+
+	let elements = $derived(getArrayOfElements(content));
 
 	supressWarnings();
 </script>
 
-{#each elements as node, index (index + key)}
+{#each elements as node}
 	{#if isText(node)}
 		{@const shouldSerialize = !!parent && isElement(parent) && parent.type !== 'code-block'}
 		<RenderText {...node} {shouldSerialize} {renderers} />
 	{:else if isElement(node)}
-		<RenderElement element={node} {renderers} {references} slug={index + key} />
+		<RenderElement element={node} {renderers} {references} />
 	{/if}
 {/each}

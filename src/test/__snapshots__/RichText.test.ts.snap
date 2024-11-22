@@ -2,33 +2,56 @@
 
 exports[`custom embeds and assets > should render specific mimeType if favour of the mimeType group 1`] = `
 <body>
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <img
-    loading="lazy"
+    loading="eager"
     title=""
   />
-  <!--&lt;Image&gt;-->
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <div>
     custom video/mp4
   </div>
-  <!--&lt;TestMp4&gt;-->
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <audio
     controls=""
@@ -36,8 +59,7 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
     style="display: block; max-width: 100%; height: auto;"
   >
     <p>
-      Your browser doesn't support HTML5 audio. Here is a
-		
+      Your browser doesn't support HTML5 audio. Here is a 
       <a
         href="https://media.graphassets.com/H9eZ7CISSBpAKxqdSwzg"
       >
@@ -46,60 +68,101 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
        instead.
     </p>
   </audio>
-  <!--&lt;Audio&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`custom embeds and assets > should render video, image, and audio assets 1`] = `
 <body>
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <img
-    loading="lazy"
+    loading="eager"
     title=""
   />
-  <!--&lt;Image&gt;-->
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <video
     controls=""
     height="100%"
+    src=""
     title=""
     width="100%"
   >
     <p>
-      Your browser doesn't support HTML5 video. Here is a
-       
-       
+      Your browser doesn't support HTML5 video. Here is a  
       <a
         href=""
       >
@@ -108,11 +171,17 @@ exports[`custom embeds and assets > should render video, image, and audio assets
        instead.
     </p>
   </video>
-  <!--&lt;Video&gt;-->
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <audio
     controls=""
@@ -120,8 +189,7 @@ exports[`custom embeds and assets > should render video, image, and audio assets
     style="display: block; max-width: 100%; height: auto;"
   >
     <p>
-      Your browser doesn't support HTML5 audio. Here is a
-		
+      Your browser doesn't support HTML5 audio. Here is a 
       <a
         href="https://media.graphassets.com/H9eZ7CISSBpAKxqdSwzg"
       >
@@ -130,218 +198,370 @@ exports[`custom embeds and assets > should render video, image, and audio assets
        instead.
     </p>
   </audio>
-  <!--&lt;Audio&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > removes the width and height attributes if they are set to 0 1`] = `
 <body>
-  
   <img
-    loading="lazy"
-    src="https://media.graphassets.com/bFyCrmvuQfO7n0l5ZmH5"
+    loading="eager"
     title="logo.svg"
   />
-  <!--&lt;Image&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders class 1`] = `
 <body>
-  
   <div
     class="test"
   >
-    
     <p>
-      
       wow
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElements&gt;-->
     </p>
-    <!--&lt;P&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElements&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
   </div>
-  <!--&lt;Class&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
 <body>
-  
   <section
     class="bg-white"
   >
-    
     <p>
-      
       wow
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElements&gt;-->
     </p>
-    <!--&lt;P&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElements&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
   </section>
-  <!--&lt;TestClass&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders content 1`] = `
 <body>
-  
   <p>
-    
     <b>
       Hello World!
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </b>
-    <!--&lt;Bold&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderText&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </p>
-  <!--&lt;P&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders content correctly if received a object with children 1`] = `
 <body>
-  
   <p>
-    
     <b>
       Hello World!
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </b>
-    <!--&lt;Bold&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderText&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </p>
-  <!--&lt;P&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders content with custom elements 1`] = `
 <body>
-  
   <p
     class="text-white"
   >
-    
     <strong
       class="text-black"
     >
       Hello World!
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
     </strong>
-    <!--&lt;TestBold&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElements&gt;-->
+    <!---->
+    
+    <!---->
   </p>
+   ,
+  <!---->
   
-,
-  <!--&lt;TestP&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders iframe 1`] = `
 <body>
-  
   <div
     style="position: relative; overflow: hidden; width: 100%; padding-top: 56.25%;"
   >
@@ -355,195 +575,310 @@ exports[`rich-text-svelte-renderer > renders iframe 1`] = `
       title=""
     />
   </div>
-  <!--&lt;IFrame&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders image 1`] = `
 <body>
-  
   <img
     alt="photo-1564631027894-5bdb17618445.jpg"
     height="1000"
-    loading="lazy"
-    src="https://media.graphassets.com/output=format:webp/resize=,width:667,height:1000/8xrjYm4CR721mAZ1YAoy"
+    loading="eager"
     title="photo-1564631027894-5bdb17618445.jpg"
     width="667"
   />
-  <!--&lt;Image&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders image with custom renderer 1`] = `
 <body>
-  
   <img
     alt="photo-1564631027894-5bdb17618445.jpg"
     src="https://media.graphassets.com/output=format:webp/resize=,width:667,height:1000/8xrjYm4CR721mAZ1YAoy"
   />
-  <!--&lt;TestImage&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders inline content 1`] = `
 <body>
-  
   <p>
-    
     <b>
       Hey, 
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </b>
-    <!--&lt;Bold&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <i>
       how
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </i>
-    <!--&lt;Italic&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <u>
       are
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </u>
-    <!--&lt;Underline&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <code>
       you?
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </code>
-    <!--&lt;Code&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderText&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </p>
-  <!--&lt;P&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders inline content with custom renderers 1`] = `
 <body>
-  
   <p>
-    
     <strong
       class="text-black"
     >
       Hey, 
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
     </strong>
-    <!--&lt;TestBold&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <i
       class="italic-class"
       style="color: red;"
     >
       how
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
     </i>
-    <!--&lt;TestItalic&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <u
       role="button"
     >
       are
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
        test
     </u>
     ,
-    <!--&lt;TestUnderline&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <code
       style="font-style: italic;"
     >
       you?
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
     </code>
-    <!--&lt;TestCode&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderText&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </p>
-  <!--&lt;P&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders link 1`] = `
 <body>
-  
   <a
     class="text-white"
     href="https://hygraph.com"
@@ -552,148 +887,288 @@ exports[`rich-text-svelte-renderer > renders link 1`] = `
     target="_blank"
     title="Hygraph website"
   >
-    
     Hygraph
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElements&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
   </a>
-  <!--&lt;Link&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders lists 1`] = `
 <body>
-  
   <ul>
-    
     <li>
-      
-      
       Embroided logo
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElements&gt;-->
-      <!--&lt;Slot&gt;-->
-      
-      
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </li>
-    <!--&lt;Li&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <li>
-      
-      
       Fits well
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElements&gt;-->
-      <!--&lt;Slot&gt;-->
-      
-      
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </li>
-    <!--&lt;Li&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <li>
-      
-      
       Comes in black
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElements&gt;-->
-      <!--&lt;Slot&gt;-->
-      
-      
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </li>
-    <!--&lt;Li&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <li>
-      
-      
       Reasonably priced
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElements&gt;-->
-      <!--&lt;Slot&gt;-->
-      
-      
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </li>
-    <!--&lt;Li&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElement&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </ul>
-  <!--&lt;Ul&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders video 1`] = `
 <body>
-  
   <video
     controls=""
     height="400"
@@ -702,9 +1177,7 @@ exports[`rich-text-svelte-renderer > renders video 1`] = `
     width="400"
   >
     <p>
-      Your browser doesn't support HTML5 video. Here is a
-       
-       
+      Your browser doesn't support HTML5 video. Here is a  
       <a
         href="https://media.graphassets.com/oWd7OYr5Q5KGRJW9ujRO"
       >
@@ -713,533 +1186,1041 @@ exports[`rich-text-svelte-renderer > renders video 1`] = `
        instead.
     </p>
   </video>
-  <!--&lt;Video&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > should not render elements if received a object with empty children 1`] = `
 <body>
-  
   <h2>
     
+    <!---->
     
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
-    
+    <!---->
     
     <a
       href="https://hygraph.com"
     >
-      
       Testing Link
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
       
+      <!---->
       
-      <!--&lt;RenderElements&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
     </a>
-    <!--&lt;Link&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElement&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </h2>
-  <!--&lt;H2&gt;-->
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <h2>
     
+    <!---->
     
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
-    
+    <!---->
     
     <a
       href="https://hygraph.com"
     >
-      
       Link
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
       
-      <!--&lt;RenderText&gt;-->
+      <!---->
       
+      <!---->
       
-      <!--&lt;RenderElements&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
     </a>
-    <!--&lt;Link&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
      2
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElements&gt;-->
   </h2>
-  <!--&lt;H2&gt;-->
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
   
+  <!---->
   
-  <!--&lt;RenderElement&gt;-->
+  <!---->
   
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   <table>
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
-    
+    <!---->
     
     <tbody>
-      
       <tr>
-        
         <td>
-          
           <p>
-            
             Row 1 - Col 1
+            <!---->
             
-            <!--&lt;SplitText&gt;-->
+            <!---->
             
-            <!--&lt;RenderText&gt;-->
+            <!---->
+            
+            <!---->
+            
+            <!---->
+            
+            <!---->
             
             
-            <!--&lt;RenderElements&gt;-->
           </p>
-          <!--&lt;P&gt;-->
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
           
           
-          <!--&lt;RenderElement&gt;-->
-          
-          
-          <!--&lt;RenderElements&gt;-->
         </td>
-        <!--&lt;TableCell&gt;-->
+        <!---->
         
+        <!---->
         
-        <!--&lt;RenderElement&gt;-->
+        <!---->
         
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
         
         <td>
-          
           <p>
-            
             Row 1 - Col 2
+            <!---->
             
-            <!--&lt;SplitText&gt;-->
+            <!---->
             
-            <!--&lt;RenderText&gt;-->
+            <!---->
+            
+            <!---->
+            
+            <!---->
+            
+            <!---->
             
             
-            <!--&lt;RenderElements&gt;-->
           </p>
-          <!--&lt;P&gt;-->
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
           
           
-          <!--&lt;RenderElement&gt;-->
-          
-          
-          <!--&lt;RenderElements&gt;-->
         </td>
-        <!--&lt;TableCell&gt;-->
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
         
         
-        <!--&lt;RenderElement&gt;-->
-        
-        
-        <!--&lt;RenderElements&gt;-->
       </tr>
-      <!--&lt;TableRow&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </tbody>
-    <!--&lt;TableBody&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElement&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </table>
-  <!--&lt;Table&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > should render a table 1`] = `
 <body>
-  
   <table>
-    
     <thead>
-      
       <tr>
-        
         <th>
-          
           <p>
-            
             Row 1 - Header 1
+            <!---->
             
-            <!--&lt;SplitText&gt;-->
+            <!---->
             
-            <!--&lt;RenderText&gt;-->
+            <!---->
+            
+            <!---->
+            
+            <!---->
+            
+            <!---->
             
             
-            <!--&lt;RenderElements&gt;-->
           </p>
-          <!--&lt;P&gt;-->
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
           
           
-          <!--&lt;RenderElement&gt;-->
-          
-          
-          <!--&lt;RenderElements&gt;-->
         </th>
-        <!--&lt;TableHeaderCell&gt;-->
+        <!---->
         
+        <!---->
         
-        <!--&lt;RenderElement&gt;-->
+        <!---->
         
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
         
         <th>
-          
           <p>
-            
             Row 1 - Header 2
+            <!---->
             
-            <!--&lt;SplitText&gt;-->
+            <!---->
             
-            <!--&lt;RenderText&gt;-->
+            <!---->
+            
+            <!---->
+            
+            <!---->
+            
+            <!---->
             
             
-            <!--&lt;RenderElements&gt;-->
           </p>
-          <!--&lt;P&gt;-->
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
           
           
-          <!--&lt;RenderElement&gt;-->
-          
-          
-          <!--&lt;RenderElements&gt;-->
         </th>
-        <!--&lt;TableHeaderCell&gt;-->
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
         
         
-        <!--&lt;RenderElement&gt;-->
-        
-        
-        <!--&lt;RenderElements&gt;-->
       </tr>
-      <!--&lt;TableRow&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </thead>
-    <!--&lt;TableHead&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderElement&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     <tbody>
-      
       <tr>
-        
         <td>
-          
           <p>
-            
             Row 2 - Col 1
+            <!---->
             
-            <!--&lt;SplitText&gt;-->
+            <!---->
             
-            <!--&lt;RenderText&gt;-->
+            <!---->
+            
+            <!---->
+            
+            <!---->
+            
+            <!---->
             
             
-            <!--&lt;RenderElements&gt;-->
           </p>
-          <!--&lt;P&gt;-->
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
           
           
-          <!--&lt;RenderElement&gt;-->
-          
-          
-          <!--&lt;RenderElements&gt;-->
         </td>
-        <!--&lt;TableCell&gt;-->
+        <!---->
         
+        <!---->
         
-        <!--&lt;RenderElement&gt;-->
+        <!---->
         
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
         
         <td>
-          
           <p>
-            
             Row 2 - Col 2
+            <!---->
             
-            <!--&lt;SplitText&gt;-->
+            <!---->
             
-            <!--&lt;RenderText&gt;-->
+            <!---->
+            
+            <!---->
+            
+            <!---->
+            
+            <!---->
             
             
-            <!--&lt;RenderElements&gt;-->
           </p>
-          <!--&lt;P&gt;-->
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
+          
+          <!---->
           
           
-          <!--&lt;RenderElement&gt;-->
-          
-          
-          <!--&lt;RenderElements&gt;-->
         </td>
-        <!--&lt;TableCell&gt;-->
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
+        
+        <!---->
         
         
-        <!--&lt;RenderElement&gt;-->
-        
-        
-        <!--&lt;RenderElements&gt;-->
       </tr>
-      <!--&lt;TableRow&gt;-->
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
+      
+      <!---->
       
       
-      <!--&lt;RenderElement&gt;-->
-      
-      
-      <!--&lt;RenderElements&gt;-->
     </tbody>
-    <!--&lt;TableBody&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElement&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </table>
-  <!--&lt;Table&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
 <body>
-  
   <p>
-    
     Sweet black 
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <b>
       cap
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </b>
-    <!--&lt;Bold&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
      
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <u>
       with
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </u>
-    <!--&lt;Underline&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
      
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <i>
       embroidered
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </i>
-    <!--&lt;Italic&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
      
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
     
     <b>
       Hygraph
+      <!---->
       
-      <!--&lt;SplitText&gt;-->
+      <!---->
+      
+      
     </b>
-    <!--&lt;Bold&gt;-->
+    <!---->
     
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
      logo.
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElements&gt;-->
   </p>
-  <!--&lt;P&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > should replace all 
  in a string with <br /> elements 1`] = `
 <body>
-  
   <p>
-    
-    Hello,
-     
+    Hello, 
     <br />
-    
-    ⁠My name is joão pedro,
-     
+    <!---->
+     My name is joão pedro, 
     <br />
+    <!---->
+     I'm testing a bug 
+    <!---->
+    <!---->
     
-    ⁠I'm testing a bug
-     
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    
-    <!--&lt;SplitText&gt;-->
-    
-    <!--&lt;RenderText&gt;-->
-    
-    
-    <!--&lt;RenderElements&gt;-->
   </p>
-  <!--&lt;P&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > should should render H1 with some text 1`] = `
 <body>
-  
   <h1>
-    
     heading
+    <!---->
     
-    <!--&lt;SplitText&gt;-->
+    <!---->
     
-    <!--&lt;RenderText&gt;-->
+    <!---->
+    
+    <!---->
+    
+    <!---->
+    
+    <!---->
     
     
-    <!--&lt;RenderElements&gt;-->
   </h1>
-  <!--&lt;H1&gt;-->
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
   
   
-  <!--&lt;RenderElement&gt;-->
-  
-  
-  <!--&lt;RenderElements&gt;-->
-  <!--&lt;RichText&gt;-->
 </body>
 `;

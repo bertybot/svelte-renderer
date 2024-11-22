@@ -1,8 +1,12 @@
 <script lang="ts">
 	import { escapeHTML } from 'es-escape-html';
 
-	export let url = '';
-	export let title = '';
+	interface Props {
+		url?: string;
+		title?: string;
+	}
+
+	let { url = '', title = '' }: Props = $props();
 </script>
 
 <div
@@ -25,5 +29,5 @@
 		frameBorder="0"
 		referrerPolicy="no-referrer"
 		{title}
-	/>
+	></iframe>
 </div>

@@ -1,14 +1,30 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import { escapeHTML } from 'es-escape-html';
 
-	export let src = '';
-	export let width: string | number | null | undefined = undefined;
-	export let height: string | number | null | undefined = undefined;
-	export let altText: string | undefined = undefined;
-	export let title = '';
+	interface Props {
+		src?: string;
+		width?: string | number | null | undefined;
+		height?: string | number | null | undefined;
+		altText?: string | undefined;
+		title?: string;
+	}
 
-	$: width = width === 0 ? undefined : width;
-	$: height = height === 0 ? undefined : height;
+	let {
+		src = '',
+		width = $bindable(undefined),
+		height = $bindable(undefined),
+		altText = undefined,
+		title = ''
+	}: Props = $props();
+
+	run(() => {
+		width = width === 0 ? undefined : width;
+	});
+	run(() => {
+		height = height === 0 ? undefined : height;
+	});
 </script>
 
 <img loading="lazy" src={escapeHTML(src)} {width} {height} alt={altText} {title} />

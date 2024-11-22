@@ -1,24 +1,16 @@
 <script lang="ts">
 	import type { EmbedReferences, RichTextContent } from '@graphcms/rich-text-types';
-	import type { NodeRendererType } from './types';
+	import type { RendererType } from './types';
 
 	import RenderElements from './RenderElements.svelte';
-	import { defaultElements } from './defaultElements';
 
-	/** @description unique identifier for content block to make sure it updates during CSR or propchange defaults to stringifying content if not supplied */
-	export let slug: string | null = null;
-	export let content: RichTextContent;
-	export let renderers: NodeRendererType | undefined = undefined;
-	export let references: EmbedReferences | undefined = undefined;
+	interface Props {
+		content: RichTextContent;
+		renderers?: RendererType | undefined;
+		references?: EmbedReferences | undefined;
+	}
 
-	$: renderers = {
-		...defaultElements,
-		...renderers,
-		Asset: {
-			...defaultElements.Asset,
-			...renderers?.Asset
-		}
-	};
+	let { content, renderers = undefined, references = undefined }: Props = $props();
 </script>
 
-<RenderElements {slug} {content} {renderers} {references} />
+<RenderElements {content} {renderers} {references} />

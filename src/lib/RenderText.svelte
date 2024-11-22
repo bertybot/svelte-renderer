@@ -1,30 +1,62 @@
 <script lang="ts">
-	import type { SvelteComponent } from 'svelte';
-	import SplitText from './TextRenderers/SplitText.svelte';
 	import type { NodeRendererType } from './types';
+	import DefaultElement from './DefaultElement.svelte';
 
-	export let text: string;
-	export let bold = false;
-	export let italic = false;
-	export let underline = false;
-	export let code = false;
-	export let shouldSerialize: boolean;
-	export let renderers: NodeRendererType | undefined;
-
-	let component: typeof SvelteComponent<object> | undefined = undefined;
-
-	$: {
-		if (bold) component = renderers?.['bold'];
-		if (italic) component = renderers?.['italic'];
-		if (underline) component = renderers?.['underline'];
-		if (code) component = renderers?.['code'];
+	interface Props {
+		text: string;
+		bold?: boolean;
+		italic?: boolean;
+		underline?: boolean;
+		code?: boolean;
+		shouldSerialize: boolean;
+		renderers: NodeRendererType | undefined;
 	}
+
+	let {
+		text,
+		bold = false,
+		italic = false,
+		underline = false,
+		code = false,
+		shouldSerialize,
+		renderers
+	}: Props = $props();
+
+	let nodeRendererType: keyof NodeRendererType | null = $derived.by(() => {
+		if (bold) return 'bold';
+		if (italic) return 'italic';
+		if (underline) return 'underline';
+		if (code) return 'code';
+		return null;
+	});
+
+	let TextComponent = $derived(
+		nodeRendererType ? renderers?.[nodeRendererType] || DefaultElement : null
+	);
 </script>
 
-{#if component}
-	<svelte:component this={component}>
-		<SplitText {text} {shouldSerialize} />
-	</svelte:component>
+{#if typeof TextComponent === 'string' || typeof TextComponent === 'number'}
+	<svelte:element this={TextComponent}>
+		{@render splitText()}
+	</svelte:element>
+{:else if nodeRendererType && TextComponent}
+	<TextComponent {nodeRendererType}>
+		{@render splitText()}
+	</TextComponent>
 {:else}
-	<SplitText {text} {shouldSerialize} />
+	{@render splitText()}
 {/if}
+
+{#snippet splitText()}
+	{#if shouldSerialize && text.includes('\n')}
+		{@const formattedText = text.split('\n')}
+		{#each formattedText as line, index}
+			{line}
+			{#if index !== formattedText.length - 1}
+				<br />
+			{/if}
+		{/each}
+	{:else}
+		{text}
+	{/if}
+{/snippet}

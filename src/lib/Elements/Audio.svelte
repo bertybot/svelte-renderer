@@ -1,5 +1,9 @@
 <script lang="ts">
-	export let url = '';
+	interface Props {
+		url?: string;
+	}
+
+	let { url = '' }: Props = $props();
 </script>
 
 <audio src={url} style:display="block" style:max-width="100%" style:height="auto" controls>
