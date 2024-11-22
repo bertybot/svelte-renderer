@@ -286,7 +286,7 @@ describe('rich-text-svelte-renderer', () => {
 				content: content
 			}
 		});
-		expect(document.body.innerHTML).toContain('&lt;Test /&gt;');
+		expect(document.body.innerHTML).toContain('<Test />');
 	});
 
 	it('should render empty text spaces', () => {
