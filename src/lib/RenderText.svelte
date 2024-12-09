@@ -7,6 +7,8 @@
 		bold?: boolean;
 		italic?: boolean;
 		underline?: boolean;
+		superscript?: boolean;
+		subscript?: boolean;
 		code?: boolean;
 		shouldSerialize: boolean;
 		renderers: NodeRendererType | undefined;
@@ -18,6 +20,8 @@
 		italic = false,
 		underline = false,
 		code = false,
+		superscript = false,
+		subscript = false,
 		shouldSerialize,
 		renderers
 	}: Props = $props();
@@ -27,6 +31,8 @@
 		if (italic) return 'italic';
 		if (underline) return 'underline';
 		if (code) return 'code';
+		if (superscript) return 'superscript';
+		if (subscript) return 'subscript';
 		return null;
 	});
 

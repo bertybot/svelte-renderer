@@ -452,3 +452,30 @@ export const nestedEmbedAssetContent: RichTextContent = [
 		]
 	}
 ];
+
+export const superScriptSubScriptContent: RichTextContent = [
+	{
+		type: 'paragraph',
+		children: [
+			{
+				text: 'TEST'
+			},
+			{
+				text: 'T',
+				subscript: true
+			}
+		]
+	},
+	{
+		type: 'paragraph',
+		children: [
+			{
+				text: 'TEST'
+			},
+			{
+				text: '2',
+				superscript: true
+			}
+		]
+	}
+];

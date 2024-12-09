@@ -13,7 +13,8 @@ import {
 	emptyContent,
 	embedAssetContent,
 	simpleH1Content,
-	tableContent
+	tableContent,
+	superScriptSubScriptContent
 } from './content';
 import TestP from './testComponents/TestP.svelte';
 import TestBold from './testComponents/TestBold.svelte';
@@ -333,6 +334,17 @@ describe('rich-text-svelte-renderer', () => {
 			target: document.body,
 			props: {
 				content: content
+			}
+		});
+
+		expect(document.body).toMatchSnapshot();
+	});
+
+	it('should render superscript and subscript elements', () => {
+		mount(RichText, {
+			target: document.body,
+			props: {
+				content: superScriptSubScriptContent
 			}
 		});
 
