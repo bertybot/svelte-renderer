@@ -1,5 +1,11 @@
 # rich-text-svelte-renderer
 
+## 2.0.1
+
+### Patch Changes
+
+- 780fb83: Added support for superscript and subscript elements
+
 ## 2.0.0
 
 ### Major Changes
