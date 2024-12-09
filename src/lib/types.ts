@@ -38,6 +38,8 @@ export interface NodeRendererType {
 	blockquote?: Component<any> | keyof SvelteHTMLElements;
 	bold?: Component<any> | keyof SvelteHTMLElements;
 	italic?: Component<any> | keyof SvelteHTMLElements;
+	superscript?: Component<any> | keyof SvelteHTMLElements;
+	subscript?: Component<any> | keyof SvelteHTMLElements;
 	underline?: Component<any> | keyof SvelteHTMLElements;
 	code?: Component<any> | keyof SvelteHTMLElements;
 	code_block?: Component<any> | keyof SvelteHTMLElements;

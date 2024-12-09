@@ -23,6 +23,8 @@ export const defaultElements: Required<NodeRendererType> = {
 	table: 'table',
 	bold: 'b',
 	italic: 'i',
+	superscript: 'sup',
+	subscript: 'sub',
 	underline: 'u',
 	code: 'code',
 	table_head: 'thead',
