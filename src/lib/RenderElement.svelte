@@ -96,7 +96,7 @@
 			<RenderElements {content} {renderers} {references} parent={element} />
 		</svelte:element>
 	{:else if Component}
-		<Component {nodeRendererType} {...referenceValues} {...rest}>
+		<Component {nodeRendererType} {content} {...referenceValues} {...rest}>
 			<RenderElements {content} {renderers} {references} parent={element} />
 		</Component>
 	{/if}
