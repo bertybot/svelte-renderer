@@ -1,5 +1,11 @@
 # rich-text-svelte-renderer
 
+## 2.0.2
+
+### Patch Changes
+
+- 9eb760c: Pass content to component so that static content can be parsed for things like slugifying headings
+
 ## 2.0.1
 
 ### Patch Changes
