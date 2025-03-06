@@ -3,7 +3,7 @@
 	"description": "Svelte port of Hygraph Rich Text React renderer",
 	"author": "Bert Bengtson",
 	"license": "MIT",
-	"version": "2.0.2",
+	"version": "2.0.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
@@ -74,7 +74,6 @@
 	},
 	"packageManager": "pnpm@8.8.0",
 	"engines": {
-		"pnpm": "^8.8.0",
-		"node": "^20.7.0"
+		"node": "^22.13.1"
 	}
 }
