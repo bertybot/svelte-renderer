@@ -9,7 +9,7 @@
 		"build": "svelte-kit sync && svelte-package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"test:unit": "svelte-kit sync && vitest",
+		"test:unit": "svelte-kit sync && vitest run",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"release": "svelte-kit sync && svelte-package && publint && changeset publish"
