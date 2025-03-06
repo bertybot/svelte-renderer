@@ -10,7 +10,6 @@
 	import RenderText from './RenderText.svelte';
 	import RenderElement from './RenderElement.svelte';
 	import { getArrayOfElements } from './getArrayOfElements';
-	import { supressWarnings } from './supressWarnings';
 
 	interface Props {
 		content: RichTextContent;
@@ -22,8 +21,6 @@
 	let { content, renderers = undefined, references = undefined, parent = null }: Props = $props();
 
 	let elements = $derived(getArrayOfElements(content));
-
-	supressWarnings();
 </script>
 
 {#each elements as node}

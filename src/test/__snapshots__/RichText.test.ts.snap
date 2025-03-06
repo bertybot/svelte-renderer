@@ -6,25 +6,15 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  
-  
   
   
   
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -37,10 +27,6 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -52,10 +38,6 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -79,35 +61,21 @@ exports[`custom embeds and assets > should render specific mimeType if favour of
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
   
   
   
-  
-  
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  
-  
   
   
   
@@ -122,25 +90,15 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  
-  
   
   
   
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -153,10 +111,6 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -182,10 +136,6 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -209,35 +159,21 @@ exports[`custom embeds and assets > should render video, image, and audio assets
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
   
   
   
-  
-  
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
   
   
   
-  
-  
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  
-  
   
   
   
@@ -248,9 +184,6 @@ exports[`custom embeds and assets > should render video, image, and audio assets
 
 exports[`rich-text-svelte-renderer > removes the width and height attributes if they are set to 0 1`] = `
 <body>
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -271,17 +204,11 @@ exports[`rich-text-svelte-renderer > removes the width and height attributes if 
   
   
   
-  
-  
-  
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders class 1`] = `
 <body>
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -300,11 +227,7 @@ exports[`rich-text-svelte-renderer > renders class 1`] = `
     <!---->
     <!---->
     <!---->
-    <!---->
-    <!---->
-    <!---->
     <p>
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -317,11 +240,7 @@ exports[`rich-text-svelte-renderer > renders class 1`] = `
       
       
       
-      
     </p>
-    
-    
-    
     
     
     
@@ -340,16 +259,11 @@ exports[`rich-text-svelte-renderer > renders class 1`] = `
   
   
   
-  
-  
-  
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
 <body>
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -365,18 +279,13 @@ exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
     <!---->
     <!---->
     <!---->
-    <!---->
-    <!---->
-    <!---->
     <p>
       <!---->
       <!---->
       <!---->
       <!---->
       <!---->
-      <!---->
       wow
-      
       
       
       
@@ -391,13 +300,8 @@ exports[`rich-text-svelte-renderer > renders class with custom renderer 1`] = `
     
     
     
-    
-    
-    
     <!---->
   </section>
-  
-  
   
   
   
@@ -416,12 +320,7 @@ exports[`rich-text-svelte-renderer > renders content 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -445,12 +344,7 @@ exports[`rich-text-svelte-renderer > renders content 1`] = `
     
     
     
-    
-    
   </p>
-  
-  
-  
   
   
   
@@ -471,12 +365,7 @@ exports[`rich-text-svelte-renderer > renders content correctly if received a obj
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -500,12 +389,7 @@ exports[`rich-text-svelte-renderer > renders content correctly if received a obj
     
     
     
-    
-    
   </p>
-  
-  
-  
   
   
   
@@ -524,12 +408,9 @@ exports[`rich-text-svelte-renderer > renders content with custom elements 1`] = 
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
   <p
     class="text-white"
   >
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -546,12 +427,9 @@ exports[`rich-text-svelte-renderer > renders content with custom elements 1`] = 
     
     
     
-    
     <!---->
   </p>
    ,
-  
-  
   
   
   
@@ -563,9 +441,6 @@ exports[`rich-text-svelte-renderer > renders content with custom elements 1`] = 
 
 exports[`rich-text-svelte-renderer > renders iframe 1`] = `
 <body>
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -594,17 +469,11 @@ exports[`rich-text-svelte-renderer > renders iframe 1`] = `
   
   
   
-  
-  
-  
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders image 1`] = `
 <body>
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -628,9 +497,6 @@ exports[`rich-text-svelte-renderer > renders image 1`] = `
   
   
   
-  
-  
-  
 </body>
 `;
 
@@ -641,14 +507,10 @@ exports[`rich-text-svelte-renderer > renders image with custom renderer 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
   <img
     alt="photo-1564631027894-5bdb17618445.jpg"
     src="https://media.graphassets.com/output=format:webp/resize=,width:667,height:1000/8xrjYm4CR721mAZ1YAoy"
   />
-  
-  
   
   
   
@@ -667,12 +529,7 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -693,10 +550,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     
     
-    
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -715,10 +568,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     
     
-    
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -737,10 +586,6 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     
     
-    
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -762,12 +607,7 @@ exports[`rich-text-svelte-renderer > renders inline content 1`] = `
     
     
     
-    
-    
   </p>
-  
-  
-  
   
   
   
@@ -788,11 +628,7 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -809,8 +645,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     
     
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -826,8 +660,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     
     
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -844,8 +676,6 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     
     
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -863,11 +693,7 @@ exports[`rich-text-svelte-renderer > renders inline content with custom renderer
     
     
     
-    
   </p>
-  
-  
-  
   
   
   
@@ -888,9 +714,6 @@ exports[`rich-text-svelte-renderer > renders link 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <a
     class="text-white"
     href="https://hygraph.com"
@@ -904,9 +727,7 @@ exports[`rich-text-svelte-renderer > renders link 1`] = `
     <!---->
     <!---->
     <!---->
-    <!---->
     Hygraph
-    
     
     
     
@@ -914,9 +735,6 @@ exports[`rich-text-svelte-renderer > renders link 1`] = `
     
     <!---->
   </a>
-  
-  
-  
   
   
   
@@ -937,9 +755,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <ul>
     <!---->
     <!---->
@@ -949,13 +764,7 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     <!---->
     <!---->
     <!---->
-    <!---->
-    <!---->
-    <!---->
     <li>
-      <!---->
-      <!---->
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -982,9 +791,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       
       
-      
-      
-      
     </li>
     
     
@@ -992,12 +798,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     
     
-    
-    
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1005,9 +805,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     <!---->
     <!---->
     <li>
-      <!---->
-      <!---->
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -1034,9 +831,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       
       
-      
-      
-      
     </li>
     
     
@@ -1044,12 +838,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     
     
-    
-    
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1057,9 +845,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     <!---->
     <!---->
     <li>
-      <!---->
-      <!---->
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -1086,9 +871,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       
       
-      
-      
-      
     </li>
     
     
@@ -1096,12 +878,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     
     
     
-    
-    
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1109,9 +885,6 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
     <!---->
     <!---->
     <li>
-      <!---->
-      <!---->
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -1138,13 +911,7 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
       
       
       
-      
-      
-      
     </li>
-    
-    
-    
     
     
     
@@ -1163,17 +930,11 @@ exports[`rich-text-svelte-renderer > renders lists 1`] = `
   
   
   
-  
-  
-  
 </body>
 `;
 
 exports[`rich-text-svelte-renderer > renders video 1`] = `
 <body>
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -1206,9 +967,6 @@ exports[`rich-text-svelte-renderer > renders video 1`] = `
   
   
   
-  
-  
-  
 </body>
 `;
 
@@ -1221,24 +979,16 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <h2>
     <!---->
     <!---->
     <!---->
     <!---->
     <!---->
-    <!---->
     
     
     
     
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1248,7 +998,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     <a
       href="https://hygraph.com"
     >
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -1260,12 +1009,8 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
       
       
       
-      
       <!---->
     </a>
-    
-    
-    
     
     
     
@@ -1282,12 +1027,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
   
   
   
-  
-  
-  
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -1300,15 +1039,10 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     <!---->
     <!---->
     <!---->
-    <!---->
     
     
     
     
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1323,9 +1057,7 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
       <!---->
       <!---->
       <!---->
-      <!---->
       Link
-      
       
       
       
@@ -1339,15 +1071,10 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     
     
-    
-    
-    
-    <!---->
     <!---->
     <!---->
     <!---->
      2
-    
     
     
     
@@ -1361,42 +1088,26 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
   
   
   
-  
-  
-  
-  <!---->
   <!---->
   <!---->
   
   
-  
-  <!---->
-  <!---->
-  <!---->
-  
-  
-  
-  <!---->
   <!---->
   <!---->
   
   
-  
-  <!---->
-  <!---->
-  <!---->
-  
-  
-  
-  <!---->
   <!---->
   <!---->
   
   
+  <!---->
+  <!---->
+  
   
   <!---->
   <!---->
-  <!---->
+  
+  
   <!---->
   <!---->
   <!---->
@@ -1408,13 +1119,8 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     <!---->
     <!---->
     <!---->
-    <!---->
     
     
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1422,9 +1128,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     <!---->
     <!---->
     <tbody>
-      <!---->
-      <!---->
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -1442,9 +1145,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
         <!---->
         <!---->
         <!---->
-        <!---->
-        <!---->
-        <!---->
         <td>
           <!---->
           <!---->
@@ -1454,11 +1154,7 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
-          <!---->
           <p>
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1471,11 +1167,7 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
             
             
             
-            
           </p>
-          
-          
-          
           
           
           
@@ -1492,12 +1184,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
         
         
         
-        
-        
-        
-        <!---->
-        <!---->
-        <!---->
         <!---->
         <!---->
         <!---->
@@ -1513,18 +1199,13 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
-          <!---->
           <p>
             <!---->
             <!---->
             <!---->
             <!---->
             <!---->
-            <!---->
             Row 1 - Col 2
-            
             
             
             
@@ -1541,13 +1222,7 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
           
           
           
-          
-          
-          
         </td>
-        
-        
-        
         
         
         
@@ -1567,9 +1242,6 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
       
       
       
-      
-      
-      
     </tbody>
     
     
@@ -1580,13 +1252,7 @@ exports[`rich-text-svelte-renderer > should not render elements if received a ob
     
     
     
-    
-    
-    
   </table>
-  
-  
-  
   
   
   
@@ -1607,13 +1273,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <table>
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1631,13 +1291,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
       <!---->
       <!---->
       <!---->
-      <!---->
-      <!---->
-      <!---->
       <tr>
-        <!---->
-        <!---->
-        <!---->
         <!---->
         <!---->
         <!---->
@@ -1655,11 +1309,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
-          <!---->
           <p>
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1672,11 +1322,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             
             
-            
           </p>
-          
-          
-          
           
           
           
@@ -1693,12 +1339,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         
         
-        
-        
-        
-        <!---->
-        <!---->
-        <!---->
         <!---->
         <!---->
         <!---->
@@ -1714,11 +1354,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
-          <!---->
           <p>
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1731,11 +1367,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             
             
-            
           </p>
-          
-          
-          
           
           
           
@@ -1755,13 +1387,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         
         
-        
-        
-        
       </tr>
-      
-      
-      
       
       
       
@@ -1778,12 +1404,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
     
     
     
-    
-    
-    
-    <!---->
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1791,9 +1411,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
     <!---->
     <!---->
     <tbody>
-      <!---->
-      <!---->
-      <!---->
       <!---->
       <!---->
       <!---->
@@ -1811,9 +1428,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         <!---->
         <!---->
         <!---->
-        <!---->
-        <!---->
-        <!---->
         <td>
           <!---->
           <!---->
@@ -1823,11 +1437,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
-          <!---->
           <p>
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1840,11 +1450,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             
             
-            
           </p>
-          
-          
-          
           
           
           
@@ -1861,12 +1467,6 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         
         
-        
-        
-        
-        <!---->
-        <!---->
-        <!---->
         <!---->
         <!---->
         <!---->
@@ -1882,11 +1482,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
           <!---->
           <!---->
           <!---->
-          <!---->
-          <!---->
-          <!---->
           <p>
-            <!---->
             <!---->
             <!---->
             <!---->
@@ -1899,11 +1495,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
             
             
             
-            
           </p>
-          
-          
-          
           
           
           
@@ -1923,13 +1515,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
         
         
         
-        
-        
-        
       </tr>
-      
-      
-      
       
       
       
@@ -1949,13 +1535,7 @@ exports[`rich-text-svelte-renderer > should render a table 1`] = `
     
     
     
-    
-    
-    
   </table>
-  
-  
-  
   
   
   
@@ -1976,11 +1556,7 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -1990,9 +1566,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2011,9 +1584,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2021,9 +1591,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2042,9 +1609,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2052,9 +1616,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2073,9 +1634,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2083,9 +1641,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2104,9 +1659,6 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
-    
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2117,11 +1669,7 @@ exports[`rich-text-svelte-renderer > should render empty text spaces 1`] = `
     
     
     
-    
   </p>
-  
-  
-  
   
   
   
@@ -2142,11 +1690,7 @@ exports[`rich-text-svelte-renderer > should render superscript and subscript ele
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2156,9 +1700,6 @@ exports[`rich-text-svelte-renderer > should render superscript and subscript ele
     
     
     
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2180,8 +1721,6 @@ exports[`rich-text-svelte-renderer > should render superscript and subscript ele
     
     
     
-    
-    
   </p>
   
   
@@ -2189,12 +1728,6 @@ exports[`rich-text-svelte-renderer > should render superscript and subscript ele
   
   
   
-  
-  
-  
-  <!---->
-  <!---->
-  <!---->
   <!---->
   <!---->
   <!---->
@@ -2207,14 +1740,10 @@ exports[`rich-text-svelte-renderer > should render superscript and subscript ele
     <!---->
     <!---->
     <!---->
-    <!---->
     TEST
     
     
     
-    
-    <!---->
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2236,12 +1765,7 @@ exports[`rich-text-svelte-renderer > should render superscript and subscript ele
     
     
     
-    
-    
   </p>
-  
-  
-  
   
   
   
@@ -2263,11 +1787,7 @@ exports[`rich-text-svelte-renderer > should replace all
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <p>
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2289,11 +1809,7 @@ exports[`rich-text-svelte-renderer > should replace all
     
     
     
-    
   </p>
-  
-  
-  
   
   
   
@@ -2314,11 +1830,7 @@ exports[`rich-text-svelte-renderer > should should render H1 with some text 1`] 
   <!---->
   <!---->
   <!---->
-  <!---->
-  <!---->
-  <!---->
   <h1>
-    <!---->
     <!---->
     <!---->
     <!---->
@@ -2331,11 +1843,7 @@ exports[`rich-text-svelte-renderer > should should render H1 with some text 1`] 
     
     
     
-    
   </h1>
-  
-  
-  
   
   
   
