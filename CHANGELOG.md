@@ -1,5 +1,11 @@
 # rich-text-svelte-renderer
 
+## 2.0.3
+
+### Patch Changes
+
+- ea59c03: Dont know what I did but, release a new version plz
+
 ## 2.0.2
 
 ### Patch Changes
