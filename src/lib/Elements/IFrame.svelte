@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { escapeHTML } from 'es-escape-html';
-
 	interface Props {
 		url?: string;
 		title?: string;
@@ -23,7 +21,7 @@
 		style:left="0"
 		style:width="100%"
 		style:height="100%"
-		src={escapeHTML(url)}
+		src={encodeURI(url)}
 		loading="lazy"
 		allow="fullscreen"
 		frameBorder="0"
