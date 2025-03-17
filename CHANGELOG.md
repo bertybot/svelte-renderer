@@ -1,5 +1,11 @@
 # rich-text-svelte-renderer
 
+## 2.0.4
+
+### Patch Changes
+
+- 85ccc1c: iFrame src issue: replaced escapeHTML with encodeURI
+
 ## 2.0.3
 
 ### Patch Changes
